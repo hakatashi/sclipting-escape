@@ -39,3 +39,7 @@ MIT
 
 * negative number literal
 * encodes Number or String
+* More neat tests
+* options
+    * no-strict mode
+    * Get number
