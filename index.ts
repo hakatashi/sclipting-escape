@@ -1,7 +1,6 @@
 /// <reference path="typings/tsd.d.ts"/>
 
-require('core-js/fn/string/code-point-at');
-
+import codePointAt = require('core-js/library/fn/string/code-point-at');
 import assert = require('assert');
 import {ord, chr} from './util'
 
@@ -39,7 +38,7 @@ export const decode = (text:string) => {
 
 	let ptr:number;
 	for (ptr = 0; ptr < text.length; ) {
-		const codePoint = text.codePointAt(ptr);
+		const codePoint = codePointAt(text, ptr);
 		ptr += chr(codePoint).length;
 
 		if (codePoint < 0xAC00 || 0xBC00 <= codePoint) {
