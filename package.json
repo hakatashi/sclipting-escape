@@ -1,7 +1,7 @@
 {
   "name": "sclipting-escape",
   "version": "1.0.0",
-  "description": "A tiny node.js module to escape String/Number/Buffer into ByteArray literal of Sclipting esotericprogramming language.",
+  "description": "A tiny node.js module to escape String/Number/Buffer into ByteArray literal of Sclipting esoteric programming language.",
   "main": "index.js",
   "scripts": {
     "install": "tsd install",
