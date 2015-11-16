@@ -5,14 +5,14 @@ import repeat = require('core-js/library/fn/string/repeat');
 // Be cool. Be Pythonic.
 
 export function ord (char:string) {
-	return char.codePointAt(0);
+	return codePointAt(char, 0);
 }
 
 export function chr (codePoint:number) {
-	return String.fromCodePoint(codePoint);
+	return fromCodePoint(codePoint);
 }
 
 export function zfill (string:string, length:number) {
 	const fillLength = Math.max(length - string.length, 0);
-	return '0'.repeat(fillLength) + string;
+	return repeat('0', fillLength) + string;
 }
