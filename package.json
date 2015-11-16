@@ -7,7 +7,7 @@
     "*.js"
   ],
   "scripts": {
-    "install": "tsd install",
+    "prepublish": "tsd install",
     "test": "mochify test.coffee --node --reporter spec --extension .ts --extension .coffee --transform coffeeify --plugin [ tsify ]"
   },
   "repository": {
