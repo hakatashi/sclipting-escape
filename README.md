@@ -31,6 +31,10 @@ Encodes data into Sclipting ByteArray literal.
 
 Decodes text from Sclipting ByteArray literal into Buffer.
 
+## License
+
+MIT
+
 ## Roadmap
 
 * negative number literal
