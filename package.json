@@ -1,0 +1,25 @@
+{
+  "name": "sclipting-escape",
+  "version": "1.0.0",
+  "description": "A tiny node.js module to escape String/Number/Buffer into ByteArray literal of Sclipting esotericprogramming language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mochify --node && mochify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakatashi/sclipting-escape.git"
+  },
+  "keywords": [
+    "converter",
+    "escape",
+    "sclipting",
+    "esolang"
+  ],
+  "author": "Koki Takahashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hakatashi/sclipting-escape/issues"
+  },
+  "homepage": "https://github.com/hakatashi/sclipting-escape#readme"
+}
