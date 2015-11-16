@@ -1,3 +1,5 @@
+/// <reference path="typings/tsd.d.ts"/>
+
 require('core-js/fn/string/code-point-at');
 
 import assert = require('assert');

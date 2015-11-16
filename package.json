@@ -4,6 +4,7 @@
   "description": "A tiny node.js module to escape String/Number/Buffer into ByteArray literal of Sclipting esotericprogramming language.",
   "main": "index.js",
   "scripts": {
+    "install": "tsd install",
     "test": "mochify --node && mochify"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/hakatashi/sclipting-escape/issues"
   },
-  "homepage": "https://github.com/hakatashi/sclipting-escape#readme"
+  "homepage": "https://github.com/hakatashi/sclipting-escape#readme",
+  "devDependencies": {
+    "tsd": "^0.6.5"
+  }
 }
