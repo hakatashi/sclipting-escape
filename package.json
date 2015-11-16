@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A tiny node.js module to escape String/Number/Buffer into ByteArray literal of Sclipting esoteric programming language.",
   "main": "index.js",
+  "files": [
+    "*.js"
+  ],
   "scripts": {
     "install": "tsd install",
     "test": "mochify test.coffee --node --reporter spec --extension .ts --extension .coffee --transform coffeeify --plugin [ tsify ]"
