@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install": "tsd install",
-    "test": "mochify --node && mochify"
+    "test": "mochify test.coffee --node --reporter spec --extension .ts --extension .coffee --transform coffeeify --plugin [ tsify ]"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,11 @@
   },
   "homepage": "https://github.com/hakatashi/sclipting-escape#readme",
   "devDependencies": {
-    "tsd": "^0.6.5"
+    "chai": "^3.4.1",
+    "coffeeify": "^1.1.0",
+    "core-js": "^1.2.6",
+    "mochify": "^2.14.1",
+    "tsd": "^0.6.5",
+    "tsify": "^0.12.2"
   }
 }
