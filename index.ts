@@ -56,7 +56,7 @@ export const decode = (text:string) => {
 			break;
 		}
 
-		const codePoint2 = text.codePointAt(ptr);
+		const codePoint2 = codePointAt(text, ptr);
 		ptr += chr(codePoint2).length;
 
 		if (0xAC00 <= codePoint2 && codePoint2 < 0xBC00) {
