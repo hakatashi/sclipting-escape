@@ -20,10 +20,12 @@
         "!node_modules/**"
     ],
     "files": [
+        "index.d.ts",
         "index.ts",
         "typings/core-js/core-js.d.ts",
         "typings/node/node.d.ts",
         "typings/tsd.d.ts",
+        "util.d.ts",
         "util.ts"
     ]
 }
