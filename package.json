@@ -4,7 +4,8 @@
   "description": "A tiny node.js module to escape String/Number/Buffer into ByteArray literal of Sclipting esoteric programming language.",
   "main": "index.js",
   "files": [
-    "*.js"
+    "*.js",
+    "*.d.ts"
   ],
   "scripts": {
     "prepublish": "tsd install",
