@@ -2,6 +2,7 @@ language: node_js
 node_js:
   - node
   - 4
+  # Test doesn't work in Node.js v0.12. See: https://travis-ci.org/hakatashi/sclipting-escape/jobs/149423006
 install: npm install
 script: npm test
 notifications:
