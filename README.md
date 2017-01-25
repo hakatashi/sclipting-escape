@@ -1,6 +1,8 @@
 sclipting-escape
 ================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hakatashi/sclipting-escape.svg)](https://greenkeeper.io/)
+
 A tiny node.js module to escape String/Number/Buffer into ByteArray literal of [Sclipting](http://esolangs.org/wiki/Sclipting) esoteric programming language.
 
 ## Usage
