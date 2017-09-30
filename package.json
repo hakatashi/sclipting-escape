@@ -29,7 +29,7 @@
   "homepage": "https://github.com/hakatashi/sclipting-escape#readme",
   "devDependencies": {
     "chai": "^4.1.0",
-    "coffeeify": "^2.0.1",
+    "coffeeify": "^3.0.0",
     "core-js": "^2.0.1",
     "mocha": "^3.0.0",
     "mochify": "^3.0.0",
