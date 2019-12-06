@@ -8,7 +8,6 @@
     "*.d.ts"
   ],
   "scripts": {
-    "prepublish": "tsd install",
     "test": "mochify test.coffee --node --reporter spec --extension .ts --extension .coffee --transform coffeeify --plugin [ tsify ]"
   },
   "repository": {
@@ -28,13 +27,13 @@
   },
   "homepage": "https://github.com/hakatashi/sclipting-escape#readme",
   "devDependencies": {
-    "chai": "^4.1.0",
-    "coffeeify": "^2.0.1",
-    "core-js": "^2.0.1",
-    "mocha": "^5.0.0",
-    "mochify": "^4.0.0",
-    "tsd": "^0.6.5",
-    "tsify": "^3.0.0",
-    "typescript": "^2.0.3"
+    "@types/node": "^12.12.14",
+    "chai": "^4.2.0",
+    "coffeeify": "^3.0.1",
+    "coffeescript": "^2.4.1",
+    "mocha": "^6.2.2",
+    "mochify": "^6.6.0",
+    "tsify": "^4.0.1",
+    "typescript": "^3.7.3"
   }
 }
