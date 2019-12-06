@@ -8,6 +8,7 @@
     "*.d.ts"
   ],
   "scripts": {
+    "build": "tsc index.ts util.ts",
     "test": "mochify test.coffee --node --reporter spec --extension .ts --extension .coffee --transform coffeeify --plugin [ tsify ]"
   },
   "repository": {
