@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/hakatashi/sclipting-escape#readme",
   "devDependencies": {
-    "@types/node": "^13.1.0",
+    "@types/node": "^13.11.0",
     "chai": "^4.2.0",
     "coffeeify": "^3.0.1",
     "coffeescript": "^2.4.1",
